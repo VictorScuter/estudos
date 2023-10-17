@@ -1,0 +1,19 @@
+
+
+body {
+    font: normal 16px Arial ,Verdana, serif;
+    text-align: left; 
+    
+    background-color:rgb(120, 162, 179);
+}
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+p {
+    text-align: center;
+    text-indent: 20px;
+}
+ 
