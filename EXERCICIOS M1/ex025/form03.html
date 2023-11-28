@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Teste de Formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <form action="cadastro.php" method="post" autocomplete="on">
     <p>
         <label for="inome">Nome</label>
         <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
@@ -21,11 +21,18 @@
        <input type="month" name="mes" id="imes" value="2023-11">
     </p>
     <label for="idia">Dia da Prova</label>
-    <input type="date" name="dia" id="idia">
+    <input type="date" name="dia" id="idia" value="2023-11-28">
+
+     <p>
+        <label for="ihora">Horario da Prova</label>
+        <input type="time" name="hora" id="ihora">
+
+     </p>
 
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </p>
+</form>
 </body>
 </html>
